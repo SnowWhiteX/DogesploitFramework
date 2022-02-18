@@ -33,8 +33,17 @@ while True:
   print("update")
  if cn == "update":
   os.system("rm -R *")
-  os.system("git clone https://github.com/SnowWhiteX/DogesploitFramework ")
+  os.system("wget https://github.com/SnowWhiteX/DogesploitFramework/blob/main/run.py")
+  os.system("wget https://github.com/SnowWhiteX/DogesploitFramework/blob/main/kod5.py")
+  os.system("wget https://github.com/SnowWhiteX/DogesploitFramework/blob/main/kod4.py")
+  os.system("wget https://github.com/SnowWhiteX/DogesploitFramework/blob/main/kod3.py")
+  os.system("wget https://github.com/SnowWhiteX/DogesploitFramework/blob/main/kod2.py")
+  os.system("wget https://github.com/SnowWhiteX/DogesploitFramework/blob/main/kod.py")
+  os.system("wget https://github.com/SnowWhiteX/DogesploitFramework/blob/main/animator.py")
   os.system("clear")
+  print("update success")
+  
+  
  if cn == "list":
   print("exploit/web/http/admin_panel_search")
   print("exploit/shh/command_send_recv")
