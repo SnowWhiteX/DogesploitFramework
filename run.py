@@ -3,6 +3,8 @@ import requests
 import socket
 import time
 import animator
+import os
+
 app = animator.Animator()
 app.scene("Starting dogesploit framework")
 app.scene("sTaRting dogesPloİt fRAmeWork")
@@ -28,6 +30,11 @@ while True:
  if cn == "help":
   print("list")
   print("set")
+  print("update")
+ if cn == "update":
+  os.system("rm -R *")
+  os.system("git clone https://github.com/SnowWhiteX/DogesploitFramework ")
+  os.system("clear")
  if cn == "list":
   print("exploit/web/http/admin_panel_search")
   print("exploit/shh/command_send_recv")
